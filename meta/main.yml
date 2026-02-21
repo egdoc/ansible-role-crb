@@ -1,0 +1,13 @@
+galaxy_info:
+  author: Egidio Docile
+  description: Ansible role to manage CRB repository on RHEL and clones
+  namespace: egdoc
+  role_name: crb
+  license: GPL-2.0-or-later
+  min_ansible_version: '2.2'
+  galaxy_tags:
+    - rhel
+    - crb
+    - repository
+
+dependencies: []

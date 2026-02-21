@@ -1,0 +1,17 @@
+---
+dependency:
+  name: galaxy
+driver:
+  name: docker
+platforms:
+  - name: rockylinux-9
+    image: docker.io/rockylinux:9
+    pre_build_image: true
+  - name: almalinux-9
+    image: docker.io/almalinux:9
+  - name: rhel-9
+    image: docker.io/redhat/ubi9
+provisioner:
+  name: ansible
+verifier:
+  name: ansible

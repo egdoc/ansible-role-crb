@@ -1,0 +1,10 @@
+---
+argument_specs:
+  main:
+    options:
+      crb_repo_enabled:
+        type: bool
+        default: true
+      crb_repo_file:
+        type: str
+        default: /etc/yum.repos.d/{{ ansible_facts.distribution | lower }}.repo
